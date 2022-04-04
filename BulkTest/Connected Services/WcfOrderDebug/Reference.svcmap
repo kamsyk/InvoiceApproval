@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f866d165-bb48-456d-a143-beb309d96eba" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65010/Wcf/OrderWcf.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OrderWcf.disco" MetadataType="Disco" ID="403e2dfd-4651-451a-95d1-2bbc4c3b2b37" SourceId="1" SourceUrl="http://localhost:65010/Wcf/OrderWcf.svc?disco" />
+    <MetadataFile FileName="OrderWcf.xsd" MetadataType="Schema" ID="de5c5311-655a-4f77-a60f-3d5bf3b57684" SourceId="1" SourceUrl="http://localhost:65010/Wcf/OrderWcf.svc?xsd=xsd0" />
+    <MetadataFile FileName="OrderWcf1.xsd" MetadataType="Schema" ID="dc450608-0db3-461b-aeef-9eff0cc4c408" SourceId="1" SourceUrl="http://localhost:65010/Wcf/OrderWcf.svc?xsd=xsd2" />
+    <MetadataFile FileName="OrderWcf.wsdl" MetadataType="Wsdl" ID="3e7ba21a-a2d4-4cd8-ab54-169380aee128" SourceId="1" SourceUrl="http://localhost:65010/Wcf/OrderWcf.svc?wsdl" />
+    <MetadataFile FileName="OrderWcf2.xsd" MetadataType="Schema" ID="9674dc42-66f4-4200-a2cc-aaadcdc21d12" SourceId="1" SourceUrl="http://localhost:65010/Wcf/OrderWcf.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

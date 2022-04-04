@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="OTISCZ.InvoiceApproval.Wcf.OrderWcf" CodeBehind="OrderWcf.svc.cs" %>
